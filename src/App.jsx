@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Mail, Linkedin, Github, Download, ArrowRight, Award } from 'lucide-react';
+import { Mail, Linkedin, Github, Download, ArrowRight } from 'lucide-react';
 
 // --- Data extracted from resume & images ---
 
