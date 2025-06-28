@@ -1,12 +1,33 @@
-# React + Vite
+# Yeswanth Chandrasekhar Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a personal website built with React, Vite and Tailwind CSS. It showcases my experience, skills and projects.
 
-Currently, two official plugins are available:
+## Live Site
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<https://yeswanthc7.github.io/portfolio-yeswanth/>
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Start the development server
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) to view the site during development.
+
+### Deploy to GitHub Pages
+
+Ensure the `homepage` field in `package.json` points to your repository URL. Then run:
+
+```bash
+npm run deploy
+```
+
+This builds the project and publishes the `dist` folder to the `gh-pages` branch so the site is hosted on GitHub Pages.
